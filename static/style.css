@@ -1,0 +1,33 @@
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+#map{
+    width: 100%;
+    height: calc(100vh - 76px);
+}
+
+#Oceania,#Africa,#Americas,#Asia,#Europa {
+    max-height: 300px; /* Defina uma altura máxima para torná-lo responsivo */
+    overflow-y: auto;  /* Adicione uma barra de rolagem vertical quando necessário */
+    overflow-x:hidden;
+  }
+
+.search{
+    position: absolute;
+    margin-top: 35px;
+    width: auto;
+}
+
+.flag{
+    width: 28px;
+    height: 20px;
+}
+
+.search-list{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
